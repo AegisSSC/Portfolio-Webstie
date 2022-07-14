@@ -1,5 +1,14 @@
 <script>
     export let text = "Default Text";
+
+
+	let menu = [
+		'Project 1',
+		'Project 2',
+		'Project 3'
+	];
+
+
 </script>
 
 <button on:click>

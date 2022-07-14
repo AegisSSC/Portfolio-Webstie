@@ -1,9 +1,19 @@
 <script>
   import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
-  import Hoverable from './Hoverable.svelte'
+  import NavBar from './lib/NavBar.svelte'
+  import ContactForm from './lib/ContactForm.svelte';
+  import ContactGrid from './lib/ContactGrid.svelte';
 </script>
 
+<NavBar/>
+
+<h2>
+  CONTACT 
+</h2>
+
+<ContactGrid/>
+<ContactForm/>
 
 
 <main>
