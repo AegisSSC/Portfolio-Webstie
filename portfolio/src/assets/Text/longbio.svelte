@@ -8,6 +8,8 @@
     </Box>
 </div>
 
+
+<!-- !TODO Stylize -->
 <style>
   	.BioBox {
 		width: 300px;

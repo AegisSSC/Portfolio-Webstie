@@ -26,6 +26,8 @@
 	{/each}
 </div>
 
+
+<!-- !TODO Stylize -->
 <style>
 	article {
 		margin: 0 0 1em 0;

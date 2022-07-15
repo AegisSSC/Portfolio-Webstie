@@ -2,6 +2,8 @@
 	<slot></slot>
 </div>
 
+
+<!-- !TODO Stylize -->
 <style>
 	.box {
 		width: 300px;

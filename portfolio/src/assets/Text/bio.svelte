@@ -4,3 +4,6 @@
 <Box>
     <p>Insert Bio here: </p>
 </Box>
+
+
+<!-- !TODO Stylize -->
