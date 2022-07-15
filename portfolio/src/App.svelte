@@ -1,19 +1,21 @@
 <script>
   import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
-  import NavBar from './lib/NavBar.svelte'
-  import ContactForm from './lib/ContactForm.svelte';
-  import ContactGrid from './lib/ContactGrid.svelte';
+  import NavBar from './lib/NavBar.svelte';
+  import ProjectsPage from './lib/ProjectsPage.svelte';
+
 </script>
 
 <NavBar/>
 
-<h2>
+<!-- <h2>
   CONTACT 
 </h2>
 
 <ContactGrid/>
-<ContactForm/>
+<ContactForm/> -->
+
+
 
 
 <main>

@@ -5,16 +5,37 @@
 	let Email = '';
 	let message = '';
     import Message from './Message.svelte'
+	import Box from './Box.svelte';
+import CustomButton from './CustomButton.svelte';
 </script>
+<Box>
+	<h2> Contact Me </h2>
+	<div class = "Info">
+		<input bind:value={Fname} placeholder="Enter your First Name">
+		<input bind:value={Lname} placeholder="Enter your Last Name">
+	</div>
+	<div class = "Contact">
+		<input bind:value={Company} placeholder="Enter your Company">
+		<input bind:value={Email} placeholder="Enter your Email Address">
+	</div>
 
-<input bind:value={Fname} placeholder="enter your First Name">
-<input bind:value={Lname} placeholder="enter your Last Name">
-<input bind:value={Company} placeholder="enter your Company">
+	<Message/>
 
-<input bind:value={Email} placeholder="enter your Email Address">
-<Message/>
+	<CustomButton text="Submit"/>
+</Box>
 
 <!-- !TODO: Figure out Stylizing -->
 <style>
-
+	.Info {
+			display: grid;
+			grid-template-columns: repeat(2, 9em);
+			grid-template-rows: repeat(1, 2em);
+			grid-gap: 0.5em
+		}
+	.Contact{
+			display:grid;
+			grid-template-columns: repeat(1, 18.5em);
+			grid-template-rows: repeat(2,2em);
+			grid-gap: 0.1em;
+	}
 </style>

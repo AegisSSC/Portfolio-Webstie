@@ -6,5 +6,5 @@
 
 
 <style>
-	textarea { width: 75%; height: 200px; }
+	textarea { width: 97%; height: 150px; }
 </style>

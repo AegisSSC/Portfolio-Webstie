@@ -24,11 +24,11 @@
         DotCard
     </button>
 
-    <!-- 2nd Row  -->
+    <!-- 2nd Row 
     <button on:click={select(5)}>PlaceHolder</button>
 	<button on:click={select(6)}>PlaceHolder</button>
 	<button on:click={select(7)}>PlaceHolder</button>
-	<button on:click={select(8)}>PlaceHolder</button>
+	<button on:click={select(8)}>PlaceHolder</button> -->
 
 </div>
 
@@ -36,7 +36,7 @@
 	.ContactGrid {
 		display: grid;
 		grid-template-columns: repeat(4, 4em);
-		grid-template-rows: repeat(2, 4em);
+		grid-template-rows: repeat(1, 4em);
 		grid-gap: 0.1em
 	}
 

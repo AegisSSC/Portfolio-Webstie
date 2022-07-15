@@ -1,1 +1,6 @@
-<p>Insert Bio here: </p>
+<script>
+    import Box from "src/lib/Box.svelte";
+</script>
+<Box>
+    <p>Insert Bio here: </p>
+</Box>
