@@ -5,3 +5,13 @@ import { svelte } from '@sveltejs/vite-plugin-svelte'
 export default defineConfig({
   plugins: [svelte()]
 })
+
+import preprocess from "svelte-preprocess";
+
+const config = {
+  preprocess: [
+    preprocess({
+      postcss: true,
+    }),
+  ],
+}
