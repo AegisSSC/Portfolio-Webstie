@@ -1,10 +1,14 @@
 <script>
     import Box from "src/lib/Box.svelte";
+	let src = "~/src/assets/static/longbio.txt"
+    let name = "Long Bio"
 </script>
 
 <div class = BioBox>
     <Box>
-        <p> Insert Long Bio Here</p>
+		<text> 
+			{src} alt = "{name}"
+		</text> 
     </Box>
 </div>
 

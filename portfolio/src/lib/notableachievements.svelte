@@ -1,10 +1,20 @@
 <script>
     import Box from "src/lib/Box.svelte";
+
+    let achievements = [
+            { text: 'Achievement 1' },
+            { text: 'Achievement 2' },
+            { text: 'Achievement 3' },
+        ];
 </script>
 
 <div class = AchieveBox > 
     <Box>
-        <p> Insert Notable Achievements Here: </p>
+        {#each achievements as { name }, i}
+        <li>
+                {i + 1}: {name}
+        </li>
+        {/each}
     </Box>
 </div> 
 
