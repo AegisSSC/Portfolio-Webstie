@@ -2,11 +2,13 @@
   import svelteLogo from './assets/svelte.svg'
   import Counter from './lib/Counter.svelte'
   import NavBar from './lib/NavBar.svelte';
-  import ProjectsPage from './lib/ProjectsPage.svelte';
+  import ProjectsPage from './routes/ProjectsPage.svelte';
 
 </script>
 
-<NavBar/>
+<ProjectsPage/>
+
+<!-- <NavBar/> -->
 
 <!-- <h2>
   CONTACT 

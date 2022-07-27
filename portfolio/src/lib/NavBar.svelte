@@ -11,6 +11,7 @@
 <button
 	class:active="{current === B1}"
 	on:click="{() => current = B1}"
+	
 >{B1}</button>
 
 <button
