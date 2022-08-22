@@ -1,8 +1,8 @@
-<script>
+/<script>
 	import { onMount } from 'svelte';
-	import List from './lib/List.svelte';
-	import Item from './lib/Item.svelte';
-    import NavBar from './lib/NavBar.svelte';
+	import List from '../lib/List.svelte';
+	import Item from '../lib/Item.svelte';
+    import NavBar from '../lib/NavBar.svelte';
 
 	let item;
 	let page;

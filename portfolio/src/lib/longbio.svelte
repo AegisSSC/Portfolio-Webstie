@@ -1,6 +1,6 @@
 <script>
-    import Box from "src/lib/Box.svelte";
-	let src = "~/src/assets/static/longbio.txt"
+    import Box from "../lib/Box.svelte";
+	let src = "src/assets/static/longbio.txt"
     let name = "Long Bio"
 </script>
 

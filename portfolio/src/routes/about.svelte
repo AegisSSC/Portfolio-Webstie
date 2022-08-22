@@ -1,8 +1,8 @@
 <script>
     import CustomButton from "src/lib/CustomButton.svelte";
-    import NavBar from "src/lib/NavBar.svelte";
-    import BioGrid from "src/lib/BioGrid.svelte";
-    import Longbio from "src/lib/longbio.svelte";;
+    import NavBar from "../lib/NavBar.svelte";
+    import BioGrid from "../lib/BioGrid.svelte";
+    import Longbio from "../lib/longbio.svelte";
 
     async function download()
     {
@@ -18,6 +18,8 @@
 
 <BioGrid/>
 <Longbio/>
+
+
 <!-- !TODO STYLE-IZE -->
 <style>
      .button-container > button {

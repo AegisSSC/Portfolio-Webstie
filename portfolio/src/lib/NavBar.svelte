@@ -1,46 +1,18 @@
 <script>
-    let current = 'NONE';
-    let B1 = 'HOME'
-    let B2 = 'ABOUT'
-    let B3 = 'PROJECTS'
-    let B4 = 'CONTACT'
+	let headings = [
+		{url: '/home', name: 'HOME'},
+		{url: '/about', name: 'ABOUT'},
+		{url: '/projects', name: 'PROJECTS'},
+		{url: '/contact', name: 'CONTACT'},
+	]
 
-    
 </script>
 
-<button
-	class:active="{current === B1}"
-	on:click="{() => current = B1}"
-	
->{B1}</button>
+<div class="bg-obsidian">
 
-<button
-	class:active="{current === B2}"
-	on:click="{() => current = B2}"
->{B2}</button>
-
-<button
-	class:active="{current === B3}"
-	on:click="{() => current = B3}"
->{B3}</button>
-
-<button
-	class:active="{current === B4}"
-	on:click="{() => current = B4}"
->{B4}</button>
-
-
-<!-- !TODO Stylize -->
-<style>
-	button {
-		display: row;
-	}
-
-	.active {
-		background-color: #ff3e00;
-		color: white;
-	}
-</style>
-
-
-
+	<nav class="flex justify-center space-x-10">
+		{#each headings as { url, name }}
+			<a href={url} class="font-mediu px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">{name}</a>
+		{/each}
+	</nav>
+</div>
