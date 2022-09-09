@@ -9,8 +9,8 @@
 </script>
 
 <!-- Credit: https://daisyui.com/components/navbar/ Adjusted layout to flatten menu-->
-<div class="navbar bg-base-100">
-	<div class="flex-1">
+<div class="navbar bg-base-100 w-full">
+	<div class="flex-1 w-full">
 		<!-- !TODO REPLACE THE DASYUI ICON WITH A NEW ICON -->
 	  <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
 	</div>

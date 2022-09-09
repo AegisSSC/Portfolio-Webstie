@@ -11,12 +11,25 @@ import CustomButton from './CustomButton.svelte';
 <Box>
 	<h2> Contact Me </h2>
 	<div class = "Info">
-		<input bind:value={Fname} placeholder="Enter your First Name">
-		<input bind:value={Lname} placeholder="Enter your Last Name">
+		<div class="form-control">
+			<label class="input-group">
+			  <input bind:value={Fname} placeholder="Enter your First Name" class="input input-bordered" />
+			</label>
+		  </div>
+		  <div class="form-control">
+
+			<label class="input-group">
+			  <input bind:value={Lname} placeholder="Enter your Last Name" class="input input-bordered" />
+			</label>
+		  </div>
+
 	</div>
 	<div class = "Contact">
-		<input bind:value={Company} placeholder="Enter your Company">
-		<input bind:value={Email} placeholder="Enter your Email Address">
+		<div class="form-control">
+			<label class="input-group">
+			  <input bind:value={Email} placeholder="Enter your Email Address" class="input input-bordered" />
+			</label>
+		  </div>
 	</div>
 
 	<Message/>
@@ -24,20 +37,17 @@ import CustomButton from './CustomButton.svelte';
 	<CustomButton text="Submit"/>
 </Box>
 
+
+
 <!-- !TODO: Figure out Stylizing -->
 <style>
 	.Info {
 			display: grid;
 			grid-template-columns: repeat(2, 9em);
 			grid-template-rows: repeat(1, 2em);
-			grid-gap: 0.5em
+			grid-gap: 4em
 		}
-	.Contact{
-			display:grid;
-			grid-template-columns: repeat(1, 18.5em);
-			grid-template-rows: repeat(2,2em);
-			grid-gap: 0.1em;
-	}
+
 </style>
 
 
