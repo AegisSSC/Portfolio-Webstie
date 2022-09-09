@@ -11,8 +11,11 @@
 </script>
 
 <NavBar/>
+<p> Here is the About Me page. Here you will find a little bit more information about who I am and what I have done.
+    <br> If you would like to take a copy of my resume, please click the button. 
+</p>
 <button>
-    <a download href="./Resume.pdf"> Click here to Download my Resume</a>>
+    <a download href="./Resume.pdf"> Resume</a>>
 </button>
 
 <BioGrid/>
