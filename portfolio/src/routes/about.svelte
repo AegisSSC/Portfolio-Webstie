@@ -11,10 +11,9 @@
 </script>
 
 <NavBar/>
-
-<div class="button-container">
-    <button on:click={download}>Resume</button>
-</div>
+<button>
+    <a download href="./Resume.pdf"> Click here to Download my Resume</a>>
+</button>
 
 <BioGrid/>
 <Longbio/>
