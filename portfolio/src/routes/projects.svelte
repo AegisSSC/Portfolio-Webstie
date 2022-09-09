@@ -1,8 +1,9 @@
 /<script>
 	import { onMount } from 'svelte';
-	import List from '../lib/List.svelte';
-	import Item from '../lib/Item.svelte';
     import NavBar from '../lib/NavBar.svelte';
+	import Footer from 'src/lib/Footer.svelte';
+	import ProjectDrawer from 'src/lib/ProjectDrawer.svelte';
+	import ProjectSlotList from 'src/lib/ProjectSlotList.svelte';
 
 	let item;
 	let page;
@@ -31,11 +32,9 @@
 
 <main>
     <NavBar/>
-	{#if item}
-		<Item {item} returnTo="#/top/{page}"/>
-	{:else if page}
-		<List {page}/>
-	{/if}
+	<ProjectDrawer/>
+	<ProjectSlotList/>
+	<Footer/>
 </main>
 
 <style>

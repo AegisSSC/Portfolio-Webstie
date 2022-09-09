@@ -2,6 +2,7 @@
     import NavBar from '../lib/NavBar.svelte'
     import ContactForm from '../lib/ContactForm.svelte';
     import ContactGrid from '../lib/ContactGrid.svelte';
+    import Footer from '../lib/Footer.svelte';
   </script>
 
 <NavBar/>
@@ -13,3 +14,4 @@
 <ContactGrid/>
 <ContactForm/>
 
+<Footer/>

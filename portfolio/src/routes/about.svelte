@@ -3,7 +3,7 @@
     import NavBar from "../lib/NavBar.svelte";
     import BioGrid from "../lib/BioGrid.svelte";
     import Longbio from "../lib/longbio.svelte";
-
+    import Footer from "../lib/Footer.svelte"
     async function download()
     {
 
@@ -17,6 +17,7 @@
 
 <BioGrid/>
 <Longbio/>
+<Footer/>
 
 
 <!-- !TODO STYLE-IZE -->
