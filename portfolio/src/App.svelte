@@ -9,7 +9,7 @@ import ProjectSlotList from './lib/ProjectSlotList.svelte';
 <NavBar/>
 <!-- !TODO INSERT A HERO ONTO THE MAIN PAGE -->
 <MainPageHero/>
-<ProjectSlotList/>
+
 <Footer/>
 
 

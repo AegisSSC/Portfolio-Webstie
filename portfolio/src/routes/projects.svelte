@@ -32,6 +32,9 @@
 
 <main>
     <NavBar/>
+	<p> Here you will find a collection of all of the active and current projects that I am working on. 
+		<br> If there is a specific project that you are wanting to learn more about, please select it from the Project List.
+	</p>
 	<ProjectDrawer/>
 	<ProjectSlotList/>
 	<Footer/>
