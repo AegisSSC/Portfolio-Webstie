@@ -1,8 +1,8 @@
 <script>
-    import NavBar from './lib/NavBar.svelte';
-    import Footer from './lib/Footer.svelte';
-    import MainPageHero from './lib/MainPageHero.svelte';
-    import ProjectSlotList from './lib/ProjectSlotList.svelte';
+    import NavBar from '../lib/NavBar.svelte';
+    import Footer from '../lib/Footer.svelte';
+    import MainPageHero from '../lib/MainPageHero.svelte';
+    import ProjectSlotList from '../lib/ProjectSlotList.svelte';
 </script>
   
   <main>
