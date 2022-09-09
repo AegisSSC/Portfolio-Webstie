@@ -8,19 +8,21 @@
 
 </script>
 
+<div class="flex flex-col w-full">
 {#each projects as { url, name, text, image }}
-    <slot>
-        <div class="hero min-h-screen bg-base-200">
-            <div class="hero-content flex-col lg:flex-row">
-                <img src= {image} class="max-w-sm rounded-lg shadow-2xl" />
+    
+        <div class="grid h-100 card bg-base-300 rounded-box place-items-center"> 
+            <img src= {image} class="max-w-sm rounded-lg shadow-2xl" />
                 <div>
                     <h1 class="text-5xl font-bold">
-                        <a href={url} class="font-mediu px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">{name}</a></h1>
+                        <a href={url} class="font-mediu px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-900">{name}</a>
+                    </h1>
                     <p class="py-6">{text}</p>
                     <button class="btn btn-primary">Read More</button>
                 </div>
-            </div>
         </div>
-    </slot>
+        <div class="divider"></div> 
+    
 
 {/each}
+</div>
