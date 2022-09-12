@@ -3,6 +3,7 @@
     import Footer from '../lib/Footer.svelte';
     import MainPageHero from '../lib/MainPageHero.svelte';
     import ProjectSlotList from '../lib/ProjectSlotList.svelte';
+
 </script>
   
   <main>
