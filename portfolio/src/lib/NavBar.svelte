@@ -1,9 +1,9 @@
 <script>
 	let headings = [
-		{url: '/home', name: 'Home'},
-		{url: '/about', name: 'About'},
-		{url: '/projects', name: 'Projects'},
-		{url: '/contact', name: 'Contact'},
+		{url: './home', name: 'Home'},
+		{url: './about', name: 'About'},
+		{url: './projects', name: 'Projects'},
+		{url: './contact', name: 'Contact'},
 	]
 
 </script>
@@ -12,7 +12,7 @@
 <div class="navbar bg-base-100 w-full">
 	<div class="flex-1 w-full">
 		<!-- !TODO REPLACE THE DASYUI ICON WITH A NEW ICON -->
-	  <a class="btn btn-ghost normal-case text-xl">daisyUI</a>
+	  <a href="./home"class="btn btn-ghost normal-case text-xl">daisyUI</a>
 	</div>
 	<div class="flex-none">
 	  <ul class="menu menu-horizontal p-0">

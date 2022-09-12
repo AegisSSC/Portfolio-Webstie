@@ -2,7 +2,7 @@
 	let text = ``;
 </script>
 
-<textarea bind:value={text} placeholder="Please type your message here"></textarea>
+<textarea bind:value={text} placeholder="Please type your message here" class="textarea textarea-primary"></textarea>
 
 
 
