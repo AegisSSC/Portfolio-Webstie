@@ -1,17 +1,14 @@
 <script>
-  import NavBar from './lib/NavBar.svelte';
   import Footer from './lib/Footer.svelte';
-  import ContactForm from './lib/ContactForm.svelte';
-  import ContactGrid from './lib/ContactGrid.svelte';
+  import About from './routes/about.svelte';
+  import Contact from './routes/contact.svelte';
+  import Projects from './routes/projects.svelte';
 </script>
 
-<NavBar/>
 <p>this is a testing page that is not meant to be used by the public
 
 </p> 
-<ContactGrid/>
-
-<ContactForm/>
+<Projects/>
 <p>this is a testing page that is not meant to be used by the public
   
 </p> 

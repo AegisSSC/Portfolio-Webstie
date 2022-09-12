@@ -1,1 +1,8 @@
-Insert Short Bio here.
+<script>
+    export let shorttext
+</script>
+
+<p>
+    Insert Short Bio here.
+
+</p>
