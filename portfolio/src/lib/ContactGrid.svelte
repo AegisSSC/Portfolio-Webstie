@@ -36,8 +36,10 @@
 <style>
 	.ContactGrid {
 		display: grid;
-		grid-template-columns: repeat(4, 4em);
-		grid-template-rows: repeat(1, 4em);
+		margin: 0 0 0 ;
+		padding: 5%;
+		grid-template-columns: repeat(4, 30%);
+		grid-template-rows: repeat(1, 150%);
 		grid-gap: 0.1em
 	}
 

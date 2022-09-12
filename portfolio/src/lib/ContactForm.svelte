@@ -8,10 +8,11 @@
 	import Box from './Box.svelte';
 import CustomButton from './CustomButton.svelte';
 </script>
+
 <Box>
 	<h2> Contact Me </h2>
 	<div class = "Info">
-		<div class="form-control">
+		<div class="form-control w-full">
 			<label class="input-group">
 			  <input bind:value={Fname} placeholder="Enter your First Name" class="input input-bordered" />
 			</label>
@@ -24,10 +25,11 @@ import CustomButton from './CustomButton.svelte';
 		  </div>
 
 	</div>
+
 	<div class = "Contact">
-		<div class="form-control">
+		<div class="flex form-control w-full">
 			<label class="input-group">
-			  <input bind:value={Email} placeholder="Enter your Email Address" class="input input-bordered" />
+			  <input bind:value={Email} placeholder="Enter your Email Address" class="input input-bordered min-w-max" />
 			</label>
 		  </div>
 	</div>
@@ -43,20 +45,19 @@ import CustomButton from './CustomButton.svelte';
 <style>
 	.Info {
 			display: grid;
+			padding: 2%;
+			margin: 2% 0 0 0;
 			grid-template-columns: repeat(2, 9em);
 			grid-template-rows: repeat(1, 2em);
-			grid-gap: 4em
+			grid-gap: 10%
 		}
+	.Contact {
+		display: grid;
+		padding: 1%;
+		margin: 5% 0 5% 0;
+		grid-template-columns: repeat(1, 12em);
+		grid-template-rows: repeat(1, 3em);
+		grid-gap: 10%
+	}
 
 </style>
-
-
-<div class="form-control">
-	<label class="label">
-	  <span class="label-text">Your Email</span>
-	</label>
-	<label class="input-group">
-	  <span>Email</span>
-	  <input type="text" placeholder="info@site.com" class="input input-bordered" />
-	</label>
-  </div>

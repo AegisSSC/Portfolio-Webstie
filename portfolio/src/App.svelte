@@ -1,12 +1,8 @@
 <script>
   import NavBar from './lib/NavBar.svelte';
   import Footer from './lib/Footer.svelte';
-  import MainPageHero from './lib/MainPageHero.svelte';
-  import ProjectSlotList from './lib/ProjectSlotList.svelte';
-  import Longbio from './lib/longbio.svelte';
-  import BioGrid from './lib/BioGrid.svelte';
-import ContactForm from './lib/ContactForm.svelte';
-import ContactGrid from './lib/ContactGrid.svelte';
+  import ContactForm from './lib/ContactForm.svelte';
+  import ContactGrid from './lib/ContactGrid.svelte';
 </script>
 
 <NavBar/>

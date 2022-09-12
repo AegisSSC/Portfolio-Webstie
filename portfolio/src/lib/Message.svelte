@@ -1,5 +1,5 @@
 <script>
-	let text = ` `;
+	let text = ``;
 </script>
 
 <textarea bind:value={text} placeholder="Please type your message here"></textarea>
