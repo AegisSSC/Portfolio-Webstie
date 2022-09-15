@@ -8,10 +8,11 @@
 import CustomButton from './CustomButton.svelte';
 </script>
 
-<Box>
+<Box class ='align-middle'>
 	<h1> Contact Me </h1>
+	<p> You may also contact me directly here by submitting your information in the form and I will get back to you within 3 business days. </p>
 	<div class = "Info">
-		<div class="form-control w-full">
+		<div class="form-control w-full align-middle">
 			<label class="input-group">
 				<input bind:value={Fname}  placeholder="Enter your First Name" class="input input-bordered input-primary w-full max-w-xs" />
 			</label>

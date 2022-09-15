@@ -9,11 +9,11 @@
 <NavBar/>
 
 <h1>CONTACT </h1>
-<Box>
+<Box class = 'align-middle'>
   <p> Want to get in touch? Click any of the links below to be redirected to my contact information.</p>
   <ContactGrid/>
 </Box>
-<p> You may also contact me directly here by submitting your information in the form and I will get back to you within 3 business days. </p>
+
 <ContactForm/>
 
 <Footer/>
