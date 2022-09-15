@@ -6,20 +6,10 @@
   import Homepage from './routes/homepage.svelte';
 </script>
 
-<p>this is a testing page that is not meant to be used by the public
-
-</p> 
-<Projects/>
-<p>this is a testing page that is not meant to be used by the public
-  
-</p> 
-
-
-
-<Footer/>
-
-
-
+<p>this is a testing page that is not meant to be used by the public </p> 
+<!-- <Homepage class='w-full'/> -->
+<Contact/>
+<p>this is a testing page that is not meant to be used by the public</p> 
 
 
   <style>

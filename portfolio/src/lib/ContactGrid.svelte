@@ -38,7 +38,7 @@
 		display: grid;
 		margin: 0 0 0 ;
 		padding: 5%;
-		grid-template-columns: repeat(4, 30%);
+		grid-template-columns: repeat(4, 25%);
 		grid-template-rows: repeat(1, 150%);
 		grid-gap: 0.1em
 	}

@@ -4,7 +4,6 @@
     import Longbio from "../lib/longbio.svelte";
     import Footer from "../lib/Footer.svelte"
     import Box from "../lib/Box.svelte"
-    import CustomButton from "../lib/CustomButton.svelte";
 </script>
 
 <NavBar/>
